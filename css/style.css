@@ -1,4 +1,4 @@
-#resizable {
+#test {
     background-color: #fbfbfb;
     position: absolute;
     right: 40px;
@@ -17,20 +17,11 @@
     vertical-align: middle;
     height: 60px;
 }
-#resizable h3 {
+#test h3 {
     width: 30px;
     height: 30px;
     background-color: #427cd4;
     display: inline-block;
-}
-.ui-widget-header {
-    border: 0 !important;
-}
-.ui-widget-content {
-    border: 0 !important;
-}
-.ui-resizable-helper {
-    border: 1px dotted gray;
 }
 .chat{
     /*background-color: aqua;*/
