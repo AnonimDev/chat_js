@@ -1,21 +1,22 @@
 #test {
     background-color: #fbfbfb;
-    position: absolute;
+    position: fixed;
     right: 40px;
     bottom: 40px;
     width: 50%;
-    height: 50%;
+    height: 54% !important;
     width: 300px;
     height: 400px;
     border-radius: 5px;
     box-shadow: 0 0 30px -3px #000000;
 }
-.head{
+#head{
     border-radius: 5px 5px 0 0;
     background-color: #427cd4;
     text-align: center;
     vertical-align: middle;
     height: 60px;
+    cursor: move;
 }
 #test h3 {
     width: 30px;
@@ -27,12 +28,14 @@
     /*background-color: aqua;*/
     height: 275px;
     padding: 10px;
-    overflow: scroll;
-    position:relative;
-    /*border-radius: 5px;*/
+    /*display: table-cell;*/
+    /*vertical-align: bottom;*/
+}
+.messeg{
+    /*padding: 10px;*/
 }
 .mess{
-    margin: 10px;
+    margin: 23px 0 0 9px;
 }
 .mes{
     width: 65%;
@@ -52,4 +55,35 @@
 }
 .r{
     float: right;
+}
+
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+#test1{
+    float: left;
+    width: 20%;
+    height: 900px;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+}
+#test2{
+    float: right;
+    margin: 0;
+    padding: 0;
+    width: 80%;
+    height: 900px;
+    background-color: #427cd4;
+}
+.rrr{
+    margin: 0 0 0 30%;
+    padding: 0;
+    width: 50%;
+    height: 50%;
+
+    background-color: aqua;
 }

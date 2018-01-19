@@ -3,7 +3,7 @@ include "php/header.php";
 ?>
 
     <div id="test">
-        <div class="head">
+        <div id="head">
             <h3>Чат</h3>
         </div>
         <div class="chat">
@@ -16,9 +16,16 @@ include "php/header.php";
             <input class="mes" type="text"/>
             <button class="btn">отправить</button>
         </div>
+        <div id="polosa1"></div>
+<!--    <div id="polosa2"></div>-->
     </div>
 
-<!--<div id="test"></div>-->
+<!--<div id="test1"></div>-->
+<!--<div id="test2"><button id="test1btn">Открыть/Закрыть</button>-->
+<!---->
+<!--    <div class="rrr"></div>-->
+<!--</div>-->
+
 <?php
 include "php/footer.php";
 ?>
